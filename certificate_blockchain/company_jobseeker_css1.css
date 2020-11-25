@@ -1,0 +1,436 @@
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F0F0F0 url(images/bg.png) repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #181B20;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #1A1A1A;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #C62647;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img
+{
+	margin-bottom: 2em;
+}
+
+.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+.image-full
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img03.gif) no-repeat center top;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 240px;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	width: 980px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 80px 0px 0px 0px;
+	color: #3B3B3B;
+}
+
+#logo h1, #logo p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 54px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logo h1 a {
+	color: #3B3B3B;
+}
+
+#logo p {
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	color: #A53602;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #8F8F8F;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 56px;
+	margin: 0px auto;
+	padding: 20px 20px 0px 20px;
+	background:rgb(69, 184, 65);
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	height: 56px;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+	line-height: 56px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+#menu .current_page_item a {
+	background: #FFFFFF;
+	color:rgb(69, 184, 65);
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* Page */
+
+#page {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 40px 50px 0px 50px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 650px;
+	padding: 0px 0px 0px 0px;
+}
+#content h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 20px 0;
+	border-bottom: 1px solid #B6BFD0;
+	letter-spacing: -1px;
+	font-size: 40px;
+	color: #1A1A1A;
+}
+#content h3 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 24px 0;
+	border-bottom: 1px solid #B6BFD0;
+	letter-spacing: -1px;
+	font-size: 48px;
+	color: #1A1A1A;
+}
+#content h4 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 24px;
+	
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #1A1A1A;
+}
+#content h5 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 300px;
+	
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #1A1A1A;
+}
+.post {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	height: 0px;/*38*/
+	margin-bottom: 20px;
+	padding: 50px 0 0 390px;/*0 0 0 右*/
+	text-align: left;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #1A1A1A;
+}
+
+.post .title a {
+	color: #1A1A1A;
+	border: none;
+}
+
+
+.post .meta {
+	padding-bottom: 10px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.post .links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+
+
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 1200px;
+	margin: 0em auto;
+	padding: 5em 0em;
+	background: url(images/shadow.png) no-repeat center top;
+}
+
+#footer p {
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: #8F8F8F;
+}
+
+#footer a {
+	color: #8F8F8F;
+}
+
+.form-control {/*輸入格*/
+	display: block;
+	width: 15%;
+	height: 20px;
+	padding: 0.375rem 0.75rem;/*0.375rem 0.75rem*/
+	font-size: 20px;
+	font-weight: 20;
+    line-height: 1.5;
+	margin-top:-30px;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #495057;
+    border-radius: 0.25rem;
+    position: absolute;
+    
+    left: 43%;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .button {
+    width: 120px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 350px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 3px solid #A3A3A3;
+	color: #A3A3A3;
+    transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
